@@ -659,7 +659,9 @@ No extra text. Notes:\n${input}`;
               <span className="tag" style={{
                 background: `${diffColors[card?.diff]}20`,
                 color: diffColors[card?.diff],
-              }}>
+              }}> 
+                background: '${diffColors[card?.diff]}20',
+                color: diffColors[card?.diff],
                 {card?.diff}
               </span>
             </div>
